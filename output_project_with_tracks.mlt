@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mlt profile="hdv_720_25p" version="7.4.0">
+<producer id="original_video">
+    <property name="resource">input_video.mp4</property>
+    <property name="mlt_service">avformat</property>
+    <property name="seekable">1</property>
+</producer>
+<playlist id="playlist0">
+</playlist>
+<tractor id="tractor0">
+    <multitrack>
+        <track producer="playlist0"/>
+    </multitrack>
+</tractor>
+</mlt>
